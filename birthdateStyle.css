@@ -1,0 +1,58 @@
+* {
+    background-color: darkgreen;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.bday {
+    position: relative;
+    top: 200px;
+}
+
+.day {
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    color: #222;
+    border: 2px solid #eee;
+    font-size: 1rem;
+    padding: 5px;
+    width: 5rem;
+    display: block;
+}
+
+.bmonth {
+    position: relative;
+    top: 300px;
+}
+
+.month {
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    color: #222;
+    border: 2px solid #eee;
+    font-size: 1rem;
+    padding: 5px;
+    width: 5rem;
+    display: block;
+}
