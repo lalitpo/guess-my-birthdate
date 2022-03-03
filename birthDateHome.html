@@ -3,25 +3,37 @@
 
 <head>
     <link rel="stylesheet" href="birthDateStyle.css" />
-
     <title>Guess Birth Date</title>
 </head>
 
 <body>
-    <h1>GUESS MY BIRTH DATE!</h1>
-
-    <section class="bday">
-        <h2>My birth day?</h2>
-        <input type="number" class="day" />
-        <h3>BirthDay Score :</h3>
-    </section>
-    <section class="bmonth">
-        <h2>My birth month?</h2>
-        <input type="number" class="month" />
-        <h3>BirthMonth Score :</h3>
-    </section>
-
-    <h3>Total Score:</h3>
+    <header>
+        <h1>What's My BirthDate?</h1>
+        <button class="btn again">Reset The Game!</button>
+    </header>
+    <header>
+        <h2>My BirthDay?</h2>
+        <p class="between">(Between 1 and 31)</p>
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+        <p class="label-score">Birthday Score: <span class="score">20</span></p>
+    </header>
+    <header>
+        <h2>My BirthMonth?</h2>
+        <p class="between">(Between 1 and 12)</p>
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+        <p class="label-score">BirthMonth Score: <span class="score">20</span></p>
+    </header>
+    <main>
+        <section class="totalscore">
+            <p class="tscore">Total Score : <span class="tscored">20</span></p>
+            <p class="label-highscore">
+                Highscore: <span class="highscore">0</span>
+            </p>
+        </section>
+    </main>
+    <script src="birthDate.js"></script>
 </body>
 
 </html>
