@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 * {
-    background-color: darkgreen;
+    background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -127,7 +127,7 @@ footer {
     left: 2rem;
 }
 
-.guess {
+.guessday {
     background: white;
     border: 1px solid #eee;
     font-family: inherit;
@@ -141,7 +141,35 @@ footer {
     left: 38%;
 }
 
-.btn {
+.guessmonth {
+    background: white;
+    border: 1px solid #eee;
+    font-family: inherit;
+    position: absolute;
+    color: black;
+    font-size: 4rem;
+    width: 25%;
+    text-align: center;
+    display: block;
+    top: 40%;
+    left: 38%;
+}
+
+.btn-check1 {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    position: absolute;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    display: block;
+    top: 65%;
+    left: 38%;
+}
+
+.btn-check2 {
     border: none;
     background-color: #eee;
     color: #222;
@@ -171,4 +199,10 @@ footer {
 
 .btn:hover {
     background-color: #ccc;
+}
+
+.status {
+    margin-bottom: 8rem;
+    height: 3rem;
+    font-size: 2rem;
 }
