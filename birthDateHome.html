@@ -9,30 +9,30 @@
 <body>
     <header>
         <h1>What's My BirthDate?</h1>
-        <button class="btn again">Reset The Game!</button>
-    </header>
-    <header>
-        <h2>My BirthDay?</h2>
-        <p class="between">(Between 1 and 31)</p>
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-        <p class="label-score">Birthday Score: <span class="score">20</span></p>
-    </header>
-    <header>
-        <h2>My BirthMonth?</h2>
-        <p class="between">(Between 1 and 12)</p>
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-        <p class="label-score">BirthMonth Score: <span class="score">20</span></p>
+        <button class="btn-again">Reset The Game!</button>
     </header>
     <main>
-        <section class="totalscore">
-            <p class="tscore">Total Score : <span class="tscored">20</span></p>
-            <p class="label-highscore">
-                Highscore: <span class="highscore">0</span>
+        <section class="hday">
+            <h2>My BirthDay?</h2>
+            <p class="between">(Between 1 and 31)</p>
+            <input type="number" class="guess" />
+            <button class="btn check">Check!</button>
+            <p class="label-score">Birthday Score: <span class="score">0</span></p>
+        </section>
+        <section class="hmonth">
+            <h2>My BirthMonth?</h2>
+            <p class="between">(Between 1 and 12)</p>
+            <input type="number" class="guess" />
+            <button class="btn check">Check!</button>
+            <p class="label-score">
+                BirthMonth Score: <span class="score">0</span>
             </p>
         </section>
     </main>
+    <footer>
+        <p class="tscore">Total Score : <span class="tscored">0</span></p>
+        <p class="hscore">Highscore: <span class="hscored">0</span></p>
+    </footer>
     <script src="birthDate.js"></script>
 </body>
 
