@@ -90,6 +90,18 @@ footer {
     left: 37%;
 }
 
+.mscore {
+    font-size: 2rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.dscore {
+    font-size: 2rem;
+    height: 3rem;
+    text-align: center;
+}
+
 .tscore {
     font-size: 2rem;
     height: 3rem;
@@ -129,12 +141,12 @@ footer {
 
 .guessday {
     background: white;
-    border: 1px solid #eee;
     font-family: inherit;
     position: absolute;
     color: black;
     font-size: 4rem;
     width: 25%;
+    cursor: pointer;
     text-align: center;
     display: block;
     top: 40%;
@@ -143,12 +155,12 @@ footer {
 
 .guessmonth {
     background: white;
-    border: 1px solid #eee;
     font-family: inherit;
     position: absolute;
     color: black;
     font-size: 4rem;
     width: 25%;
+    cursor: pointer;
     text-align: center;
     display: block;
     top: 40%;
